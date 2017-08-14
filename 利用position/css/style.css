@@ -1,0 +1,23 @@
+* {
+	padding: 0;margin: 0;
+}
+#container {
+	position: relative;
+	width: 1316px;
+	height: 600px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.myUl {
+	position: absolute;
+	left: 0;
+	list-style: none;
+	width: 600%;
+	font-size: 0;
+}
+.myUl>li {
+	float: left;
+}
+.myUl>li img {
+	width: 1316px;height: 460px;
+}
