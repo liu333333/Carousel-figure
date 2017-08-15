@@ -24,22 +24,40 @@
 .myUl {
 	animation: bo 12s infinite;
 }
+.myUl:hover {
+	animation-play-state:paused;
+}
 
 @keyframes bo {
 	0% {
 		left: 0;
 	}
+	3% {
+		left: -1316px;
+	}
 	20% {
 		left: -1316px;
+	}
+	23% {
+		left: -2632px;
 	}
 	40% {
 		left: -2632px;
 	}
+	43% {
+		left: -3948px;
+	}
 	60% {
 		left: -3948px;
 	}
+	63% {
+		left: -5264px;
+	}
 	80% {
 		left: -5264px;
+	}
+	83% {
+		left: -6580px;
 	}
 	100% {
 		left: -6580px;
